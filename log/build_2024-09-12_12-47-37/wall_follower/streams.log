@@ -1,0 +1,25 @@
+[1.077s] Invoking command in '/home/user/ros2_ws/src/wall_follower': PYTHONPATH=/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:/home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/services_quiz/lib/python3.10/site-packages:/home/user/ros2_ws/install/services_quiz_srv/local/lib/python3.10/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/user/ros2_ws/build/wall_follower/build install --prefix /home/user/ros2_ws/install/wall_follower --record /home/user/ros2_ws/build/wall_follower/install.log --single-version-externally-managed
+[1.782s] running egg_info
+[1.786s] writing ../../build/wall_follower/wall_follower.egg-info/PKG-INFO
+[1.787s] writing dependency_links to ../../build/wall_follower/wall_follower.egg-info/dependency_links.txt
+[1.787s] writing entry points to ../../build/wall_follower/wall_follower.egg-info/entry_points.txt
+[1.793s] writing requirements to ../../build/wall_follower/wall_follower.egg-info/requires.txt
+[1.794s] writing top-level names to ../../build/wall_follower/wall_follower.egg-info/top_level.txt
+[1.914s] reading manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[1.916s] writing manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[1.916s] running build
+[1.916s] running build_py
+[1.929s] copying wall_follower/wall_finder.py -> /home/user/ros2_ws/build/wall_follower/build/lib/wall_follower
+[1.933s] running install
+[1.945s] running install_lib
+[1.996s] copying /home/user/ros2_ws/build/wall_follower/build/lib/wall_follower/wall_finder.py -> /home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower
+[1.996s] byte-compiling /home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower/wall_finder.py to wall_finder.cpython-38.pyc
+[1.997s] running install_data
+[1.998s] running install_egg_info
+[2.008s] removing '/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower-0.0.0-py3.8.egg-info' (and everything under it)
+[2.008s] Copying ../../build/wall_follower/wall_follower.egg-info to /home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower-0.0.0-py3.8.egg-info
+[2.010s] running install_scripts
+[2.083s] Installing wall_finder script to /home/user/ros2_ws/install/wall_follower/lib/wall_follower
+[2.083s] Installing wall_follower_node script to /home/user/ros2_ws/install/wall_follower/lib/wall_follower
+[2.083s] writing list of installed files to '/home/user/ros2_ws/build/wall_follower/install.log'
+[2.235s] Invoked command in '/home/user/ros2_ws/src/wall_follower' returned '0': PYTHONPATH=/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:/home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/home/user/ros2_ws/install/services_quiz/lib/python3.10/site-packages:/home/user/ros2_ws/install/services_quiz_srv/local/lib/python3.10/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/user/ros2_ws/build/wall_follower/build install --prefix /home/user/ros2_ws/install/wall_follower --record /home/user/ros2_ws/build/wall_follower/install.log --single-version-externally-managed

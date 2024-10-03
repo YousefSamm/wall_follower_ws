@@ -1,0 +1,5 @@
+[console_scripts]
+action_server = wall_follower.odom_recorder:main
+wall_finder = wall_follower.wall_finder:main
+wall_follower_node = wall_follower.wall_following:main
+

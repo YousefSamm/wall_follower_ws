@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces
+[0.036s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.346s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.681s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.682s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.897s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.897s]   By not providing "Findrosidl_default_generator.cmake" in CMAKE_MODULE_PATH
+[0.898s]   this project has asked CMake to find a package configuration file provided
+[0.898s]   by "rosidl_default_generator", but CMake did not find one.
+[0.898s] 
+[0.898s]   Could not find a package configuration file provided by
+[0.898s]   "rosidl_default_generator" with any of the following names:
+[0.898s] 
+[0.898s]     rosidl_default_generatorConfig.cmake
+[0.898s]     rosidl_default_generator-config.cmake
+[0.898s] 
+[0.898s]   Add the installation prefix of "rosidl_default_generator" to
+[0.898s]   CMAKE_PREFIX_PATH or set "rosidl_default_generator_DIR" to a directory
+[0.898s]   containing one of the above files.  If "rosidl_default_generator" provides
+[0.899s]   a separate development package or SDK, be sure it has been installed.
+[0.899s] 
+[0.899s] 
+[0.900s] -- Configuring incomplete, errors occurred!
+[0.900s] See also "/home/user/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[0.900s] See also "/home/user/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeError.log".
+[0.909s] Invoked command in '/home/user/ros2_ws/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces

@@ -1,0 +1,8 @@
+running egg_info
+creating ../../build/wall_follower/wall_follwer.egg-info
+writing ../../build/wall_follower/wall_follwer.egg-info/PKG-INFO
+writing dependency_links to ../../build/wall_follower/wall_follwer.egg-info/dependency_links.txt
+writing entry points to ../../build/wall_follower/wall_follwer.egg-info/entry_points.txt
+writing requirements to ../../build/wall_follower/wall_follwer.egg-info/requires.txt
+writing top-level names to ../../build/wall_follower/wall_follwer.egg-info/top_level.txt
+writing manifest file '../../build/wall_follower/wall_follwer.egg-info/SOURCES.txt'

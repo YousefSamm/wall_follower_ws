@@ -1,0 +1,37 @@
+[0.614s] Invoking command in '/home/user/ros2_ws/src/wall_follwer': PYTHONPATH=/home/user/ros2_ws/install/wall_follwer/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follwer build --build-base /home/user/ros2_ws/build/wall_follwer/build install --prefix /home/user/ros2_ws/install/wall_follwer --record /home/user/ros2_ws/build/wall_follwer/install.log --single-version-externally-managed
+[1.232s] running egg_info
+[1.233s] creating ../../build/wall_follwer/wall_follwer.egg-info
+[1.233s] writing ../../build/wall_follwer/wall_follwer.egg-info/PKG-INFO
+[1.233s] writing dependency_links to ../../build/wall_follwer/wall_follwer.egg-info/dependency_links.txt
+[1.233s] writing entry points to ../../build/wall_follwer/wall_follwer.egg-info/entry_points.txt
+[1.233s] writing requirements to ../../build/wall_follwer/wall_follwer.egg-info/requires.txt
+[1.233s] writing top-level names to ../../build/wall_follwer/wall_follwer.egg-info/top_level.txt
+[1.333s] writing manifest file '../../build/wall_follwer/wall_follwer.egg-info/SOURCES.txt'
+[1.447s] reading manifest file '../../build/wall_follwer/wall_follwer.egg-info/SOURCES.txt'
+[1.449s] writing manifest file '../../build/wall_follwer/wall_follwer.egg-info/SOURCES.txt'
+[1.450s] running build
+[1.450s] running build_py
+[1.450s] creating /home/user/ros2_ws/build/wall_follwer/build
+[1.450s] creating /home/user/ros2_ws/build/wall_follwer/build/lib
+[1.450s] creating /home/user/ros2_ws/build/wall_follwer/build/lib/wall_follwer
+[1.450s] copying wall_follwer/__init__.py -> /home/user/ros2_ws/build/wall_follwer/build/lib/wall_follwer
+[1.451s] copying wall_follwer/wall_follower.py -> /home/user/ros2_ws/build/wall_follwer/build/lib/wall_follwer
+[1.451s] running install
+[1.453s] running install_lib
+[1.457s] creating /home/user/ros2_ws/install/wall_follwer/lib/python3.8/site-packages/wall_follwer
+[1.457s] copying /home/user/ros2_ws/build/wall_follwer/build/lib/wall_follwer/__init__.py -> /home/user/ros2_ws/install/wall_follwer/lib/python3.8/site-packages/wall_follwer
+[1.457s] copying /home/user/ros2_ws/build/wall_follwer/build/lib/wall_follwer/wall_follower.py -> /home/user/ros2_ws/install/wall_follwer/lib/python3.8/site-packages/wall_follwer
+[1.458s] byte-compiling /home/user/ros2_ws/install/wall_follwer/lib/python3.8/site-packages/wall_follwer/__init__.py to __init__.cpython-38.pyc
+[1.458s] byte-compiling /home/user/ros2_ws/install/wall_follwer/lib/python3.8/site-packages/wall_follwer/wall_follower.py to wall_follower.cpython-38.pyc
+[1.459s] running install_data
+[1.464s] creating /home/user/ros2_ws/install/wall_follwer/share/ament_index
+[1.464s] creating /home/user/ros2_ws/install/wall_follwer/share/ament_index/resource_index
+[1.464s] creating /home/user/ros2_ws/install/wall_follwer/share/ament_index/resource_index/packages
+[1.464s] copying resource/wall_follwer -> /home/user/ros2_ws/install/wall_follwer/share/ament_index/resource_index/packages
+[1.465s] copying package.xml -> /home/user/ros2_ws/install/wall_follwer/share/wall_follwer
+[1.465s] running install_egg_info
+[1.468s] Copying ../../build/wall_follwer/wall_follwer.egg-info to /home/user/ros2_ws/install/wall_follwer/lib/python3.8/site-packages/wall_follwer-0.0.0-py3.8.egg-info
+[1.470s] running install_scripts
+[1.511s] Installing wall_follower script to /home/user/ros2_ws/install/wall_follwer/lib/wall_follwer
+[1.512s] writing list of installed files to '/home/user/ros2_ws/build/wall_follwer/install.log'
+[1.567s] Invoked command in '/home/user/ros2_ws/src/wall_follwer' returned '0': PYTHONPATH=/home/user/ros2_ws/install/wall_follwer/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follwer build --build-base /home/user/ros2_ws/build/wall_follwer/build install --prefix /home/user/ros2_ws/install/wall_follwer --record /home/user/ros2_ws/build/wall_follwer/install.log --single-version-externally-managed

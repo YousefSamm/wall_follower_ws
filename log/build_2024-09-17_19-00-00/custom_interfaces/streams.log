@@ -1,0 +1,61 @@
+[0.033s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_interfaces -- -j8 -l8
+[0.495s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.614s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.614s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.052s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.165s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.654s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.890s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.896s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.284s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.303s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.421s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.881s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[3.882s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[3.882s]   custom_interfaces --arguments-file
+[3.882s]   /home/user/ros2_ws/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json
+[3.882s]   --output-dir
+[3.882s]   /home/user/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces
+[3.882s]   --output-file
+[3.882s]   /home/user/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)
+[3.882s]   returned error code 1:
+[3.882s] 
+[3.882s]   Error processing 'geometry_msgs/msg/Point[] list_of_odoms' of
+[3.882s]   'custom_interfaces/OdomRecord_Result': 'geometry_msgs/msg/Point'
+[3.882s] 
+[3.882s]   Traceback (most recent call last):
+[3.883s] 
+[3.883s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[3.883s]       return _run_code(code, main_globals, None,
+[3.883s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[3.883s]       exec(code, run_globals)
+[3.883s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.883s]       sys.exit(main())
+[3.883s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[3.883s]       abs_idl_file = convert_to_idl(
+[3.883s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[3.883s]       return convert_action_to_idl(
+[3.883s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[3.883s]       action = parse_action_string(package_name, input_file.stem, content)
+[3.883s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 894, in parse_action_string
+[3.884s]       result_message = parse_message_string(
+[3.884s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[3.884s]       Type(type_string, context_package_name=pkg_name),
+[3.884s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[3.884s]       super(Type, self).__init__(
+[3.884s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 189, in __init__
+[3.884s]       raise InvalidResourceName(type_string)
+[3.884s] 
+[3.884s]   rosidl_adapter.parser.InvalidResourceName: geometry_msgs/msg/Point
+[3.884s] 
+[3.885s] Call Stack (most recent call first):
+[3.885s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.885s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[3.885s] 
+[3.885s] 
+[3.885s] -- Configuring incomplete, errors occurred!
+[3.885s] See also "/home/user/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[3.885s] See also "/home/user/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeError.log".
+[3.913s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[3.916s] Invoked command in '/home/user/ros2_ws/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_interfaces -- -j8 -l8

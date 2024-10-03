@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/OdomRecord.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module custom_interfaces {
+  module action {
+    struct OdomRecord_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct OdomRecord_Result {
+      sequence<geometry_msgs::msg::Point> list_of_odoms;
+    };
+    struct OdomRecord_Feedback {
+      float current_total;
+    };
+  };
+};

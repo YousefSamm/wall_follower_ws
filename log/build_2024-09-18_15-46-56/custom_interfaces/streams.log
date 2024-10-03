@@ -1,0 +1,158 @@
+[0.187s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces
+[9.056s] -- The C compiler identification is GNU 9.3.0
+[13.993s] -- The CXX compiler identification is GNU 9.3.0
+[14.101s] -- Check for working C compiler: /usr/bin/cc
+[14.366s] -- Check for working C compiler: /usr/bin/cc -- works
+[14.371s] -- Detecting C compiler ABI info
+[14.535s] -- Detecting C compiler ABI info - done
+[14.580s] -- Detecting C compile features
+[14.705s] -- Detecting C compile features - done
+[14.714s] -- Check for working CXX compiler: /usr/bin/c++
+[15.003s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[15.004s] -- Detecting CXX compiler ABI info
+[15.235s] -- Detecting CXX compiler ABI info - done
+[15.287s] -- Detecting CXX compile features
+[15.288s] -- Detecting CXX compile features - done
+[15.438s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[15.714s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[15.719s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.036s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[17.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.732s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[19.034s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[19.164s] -- Found FastRTPS: /opt/ros/foxy/include  
+[19.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.145s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[20.162s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.166s] -- Looking for pthread.h
+[21.105s] -- Looking for pthread.h - found
+[21.105s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.379s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[21.381s] -- Looking for pthread_create in pthreads
+[21.603s] -- Looking for pthread_create in pthreads - not found
+[21.604s] -- Looking for pthread_create in pthread
+[21.894s] -- Looking for pthread_create in pthread - found
+[21.896s] -- Found Threads: TRUE  
+[22.719s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[22.819s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[23.005s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[23.248s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[23.611s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[24.001s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[24.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[24.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.859s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[24.868s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[25.085s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[25.087s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[25.087s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[25.089s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[25.165s] -- Found PythonExtra: .so  
+[25.373s] -- Added test 'lint_cmake' to check CMake code style
+[25.376s] -- Added test 'xmllint' to check XML markup files
+[25.478s] -- Configuring done
+[25.788s] -- Generating done
+[25.795s] -- Build files have been written to: /home/user/ros2_ws/build/custom_interfaces
+[25.814s] Invoked command in '/home/user/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces
+[25.820s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_interfaces -- -j8 -l8
+[25.990s] [35m[1mScanning dependencies of target custom_interfaces__cpp[0m
+[26.082s] [  2%] Built target custom_interfaces__cpp
+[26.109s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_generator_c[0m
+[26.258s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[26.294s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[26.464s] [ 15%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.829s] [ 23%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[26.893s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[26.964s] [ 33%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[27.056s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[27.182s] [ 35%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[27.509s] [ 43%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[27.536s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[27.661s] [ 53%] Built target custom_interfaces__rosidl_typesupport_c
+[27.705s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[27.766s] [ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[27.789s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[27.869s] [ 74%] Built target custom_interfaces__rosidl_typesupport_cpp
+[27.912s] [35m[1mScanning dependencies of target custom_interfaces[0m
+[27.935s] [ 74%] Built target custom_interfaces
+[28.007s] [ 76%] Built target custom_interfaces__py
+[28.032s] [35m[1mScanning dependencies of target custom_interfaces__python[0m
+[28.128s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so[0m
+[28.342s] [ 84%] Built target custom_interfaces__python
+[28.464s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[28.566s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[28.815s] [ 89%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[28.851s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[28.912s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[29.075s] [ 94%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[29.106s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[29.174s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[29.456s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[29.472s] Invoked command in '/home/user/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_interfaces -- -j8 -l8
+[30.127s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_interfaces
+[30.163s] -- Install configuration: ""
+[30.165s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+[30.165s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+[30.166s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+[30.167s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__functions.c
+[30.167s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg
+[30.169s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+[30.169s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+[30.172s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/odom_record__functions.c
+[30.178s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[30.181s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+[30.182s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+[30.182s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+[30.183s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg
+[30.184s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+[30.184s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+[30.185s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+[30.185s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+[30.185s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+[30.186s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/dds_fastrtps
+[30.186s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg
+[30.186s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+[30.186s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+[30.186s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/dds_fastrtps
+[30.187s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+[30.188s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+[30.188s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+[30.188s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__type_support.c
+[30.188s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg
+[30.188s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+[30.188s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+[30.190s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/odom_record__type_support.c
+[30.193s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[30.197s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[30.199s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+[30.199s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+[30.199s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+[30.199s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+[30.199s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+[30.200s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces
+[30.200s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv
+[30.200s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail
+[30.201s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/find_wall__type_support.cpp
+[30.201s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action
+[30.201s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail
+[30.201s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/include/custom_interfaces/action/detail/odom_record__type_support.cpp
+[30.203s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[30.207s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[30.305s] Compiling '/home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...
+[30.356s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv
+[30.356s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_find_wall_s.c
+[30.357s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/action
+[30.357s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/action/_odom_record_s.c
+[30.359s] -- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[30.360s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake
+[30.361s] -- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[30.364s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[30.364s] -- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[30.366s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[30.366s] -- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[30.372s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake
+[30.373s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[30.374s] -- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[30.380s] -- Up-to-date: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[30.380s] -- Installing: /home/user/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[30.390s] Invoked command in '/home/user/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_interfaces

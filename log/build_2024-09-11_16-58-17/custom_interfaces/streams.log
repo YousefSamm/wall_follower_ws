@@ -1,0 +1,56 @@
+[0.030s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces
+[7.466s] -- The C compiler identification is GNU 9.3.0
+[11.330s] -- The CXX compiler identification is GNU 9.3.0
+[11.432s] -- Check for working C compiler: /usr/bin/cc
+[11.602s] -- Check for working C compiler: /usr/bin/cc -- works
+[11.605s] -- Detecting C compiler ABI info
+[11.694s] -- Detecting C compiler ABI info - done
+[11.710s] -- Detecting C compile features
+[11.793s] -- Detecting C compile features - done
+[11.798s] -- Check for working CXX compiler: /usr/bin/c++
+[11.893s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[11.895s] -- Detecting CXX compiler ABI info
+[11.994s] -- Detecting CXX compiler ABI info - done
+[12.007s] -- Detecting CXX compile features
+[12.007s] -- Detecting CXX compile features - done
+[12.014s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[12.141s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[12.141s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.646s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[12.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.797s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[13.318s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[13.376s] -- Found FastRTPS: /opt/ros/foxy/include  
+[13.549s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.763s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.768s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.771s] -- Looking for pthread.h
+[14.333s] -- Looking for pthread.h - found
+[14.333s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[14.441s] -- Looking for pthread_create in pthreads
+[14.515s] -- Looking for pthread_create in pthreads - not found
+[14.515s] -- Looking for pthread_create in pthread
+[14.598s] -- Looking for pthread_create in pthread - found
+[14.599s] -- Found Threads: TRUE  
+[15.032s] CMake Error at CMakeLists.txt:22 (find_package):
+[15.033s]   By not providing "Findrosidl_default_generator.cmake" in CMAKE_MODULE_PATH
+[15.034s]   this project has asked CMake to find a package configuration file provided
+[15.034s]   by "rosidl_default_generator", but CMake did not find one.
+[15.034s] 
+[15.034s]   Could not find a package configuration file provided by
+[15.034s]   "rosidl_default_generator" with any of the following names:
+[15.034s] 
+[15.034s]     rosidl_default_generatorConfig.cmake
+[15.034s]     rosidl_default_generator-config.cmake
+[15.034s] 
+[15.034s]   Add the installation prefix of "rosidl_default_generator" to
+[15.035s]   CMAKE_PREFIX_PATH or set "rosidl_default_generator_DIR" to a directory
+[15.035s]   containing one of the above files.  If "rosidl_default_generator" provides
+[15.035s]   a separate development package or SDK, be sure it has been installed.
+[15.035s] 
+[15.035s] 
+[15.035s] -- Configuring incomplete, errors occurred!
+[15.035s] See also "/home/user/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[15.036s] See also "/home/user/ros2_ws/build/custom_interfaces/CMakeFiles/CMakeError.log".
+[15.046s] Invoked command in '/home/user/ros2_ws/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/user/ros2_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/custom_interfaces

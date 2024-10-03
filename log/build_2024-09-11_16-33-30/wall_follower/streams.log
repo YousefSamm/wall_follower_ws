@@ -1,0 +1,22 @@
+[0.357s] Invoking command in '/home/user/ros2_ws/src/wall_follower': PYTHONPATH=/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/user/ros2_ws/build/wall_follower/build install --prefix /home/user/ros2_ws/install/wall_follower --record /home/user/ros2_ws/build/wall_follower/install.log --single-version-externally-managed
+[0.708s] running egg_info
+[0.709s] writing ../../build/wall_follower/wall_follower.egg-info/PKG-INFO
+[0.709s] writing dependency_links to ../../build/wall_follower/wall_follower.egg-info/dependency_links.txt
+[0.709s] writing entry points to ../../build/wall_follower/wall_follower.egg-info/entry_points.txt
+[0.709s] writing requirements to ../../build/wall_follower/wall_follower.egg-info/requires.txt
+[0.710s] writing top-level names to ../../build/wall_follower/wall_follower.egg-info/top_level.txt
+[0.749s] reading manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[0.750s] writing manifest file '../../build/wall_follower/wall_follower.egg-info/SOURCES.txt'
+[0.750s] running build
+[0.750s] running build_py
+[0.750s] running install
+[0.751s] running install_lib
+[0.753s] running install_data
+[0.754s] copying launch/start_wall_following.launch.py -> /home/user/ros2_ws/install/wall_follower/share/wall_follower
+[0.754s] running install_egg_info
+[0.756s] removing '/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower-0.0.0-py3.8.egg-info' (and everything under it)
+[0.757s] Copying ../../build/wall_follower/wall_follower.egg-info to /home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower-0.0.0-py3.8.egg-info
+[0.758s] running install_scripts
+[0.777s] Installing wall_follower_node script to /home/user/ros2_ws/install/wall_follower/lib/wall_follower
+[0.778s] writing list of installed files to '/home/user/ros2_ws/build/wall_follower/install.log'
+[0.803s] Invoked command in '/home/user/ros2_ws/src/wall_follower' returned '0': PYTHONPATH=/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/user/ros2_ws/build/wall_follower/build install --prefix /home/user/ros2_ws/install/wall_follower --record /home/user/ros2_ws/build/wall_follower/install.log --single-version-externally-managed

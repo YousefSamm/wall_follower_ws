@@ -1,0 +1,4 @@
+make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt
+make: *** wait: No child processes.  Stop.
+make: *** Waiting for unfinished jobs....
+make: *** wait: No child processes.  Stop.
