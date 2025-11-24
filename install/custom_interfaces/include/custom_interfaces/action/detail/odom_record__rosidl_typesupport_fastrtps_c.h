@@ -1,1 +1,0 @@
-/home/user/ros2_ws/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/odom_record__rosidl_typesupport_fastrtps_c.h

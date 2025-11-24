@@ -1,1 +1,0 @@
-/home/user/ros2_ws/src/wall_follower/launch/start_wall_following.launch.py

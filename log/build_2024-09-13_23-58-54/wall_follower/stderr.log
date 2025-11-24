@@ -1,5 +1,0 @@
-  File "/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages/wall_follower/wall_following.py", line 44
-    elif(right_distance>0.35 and cmd.linear.x=0.0 and cmd.linear.z=0.0):
-                                             ^
-SyntaxError: invalid syntax
-

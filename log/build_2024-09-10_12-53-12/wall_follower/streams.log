@@ -1,9 +1,0 @@
-[0.568s] Invoking command in '/home/user/ros2_ws/src/wall_follower': PYTHONPATH=/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/user/ros2_ws/build/wall_follower/build install --prefix /home/user/ros2_ws/install/wall_follower --record /home/user/ros2_ws/build/wall_follower/install.log --single-version-externally-managed
-[1.162s] running egg_info
-[1.163s] writing ../../build/wall_follower/wall_follwer.egg-info/PKG-INFO
-[1.163s] writing dependency_links to ../../build/wall_follower/wall_follwer.egg-info/dependency_links.txt
-[1.163s] writing entry points to ../../build/wall_follower/wall_follwer.egg-info/entry_points.txt
-[1.164s] writing requirements to ../../build/wall_follower/wall_follwer.egg-info/requires.txt
-[1.164s] writing top-level names to ../../build/wall_follower/wall_follwer.egg-info/top_level.txt
-[1.237s] error: package directory 'wall_follwer' does not exist
-[1.290s] Invoked command in '/home/user/ros2_ws/src/wall_follower' returned '1': PYTHONPATH=/home/user/ros2_ws/install/wall_follower/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower build --build-base /home/user/ros2_ws/build/wall_follower/build install --prefix /home/user/ros2_ws/install/wall_follower --record /home/user/ros2_ws/build/wall_follower/install.log --single-version-externally-managed

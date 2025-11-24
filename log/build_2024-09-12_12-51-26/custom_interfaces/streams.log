@@ -1,9 +1,0 @@
-[0.062s] Invoking command in '/home/user/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/home/user/ros2_ws/install/services_quiz:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_interfaces -- -j8 -l8
-[0.280s] [  3%] Built target custom_interfaces__cpp
-[0.360s] [ 12%] Built target custom_interfaces__rosidl_generator_c
-[0.472s] [ 22%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
-[0.531s] make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt
-[0.531s] make: *** wait: No child processes.  Stop.
-[0.531s] make: *** Waiting for unfinished jobs....
-[0.532s] make: *** wait: No child processes.  Stop.
-[0.536s] Invoked command in '/home/user/ros2_ws/build/custom_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/wall_follower:/home/user/ros2_ws/install/services_quiz:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_interfaces -- -j8 -l8
